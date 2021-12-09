@@ -1,0 +1,575 @@
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+ 
+
+            int i, number, fact; 
+
+            Console.WriteLine("Digite um numero"); 
+
+            number = int.Parse(Console.ReadLine()); 
+
+            fact = number; 
+
+            for (i = number - 1; i >= 1; i--) 
+
+            { 
+
+                fact = fact * i; 
+
+            } 
+
+            Console.WriteLine("\nO fatorial do numero escolhido é: " + fact); 
+
+            Console.ReadLine(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b; 
+
+ 
+
+            Console.WriteLine("Digite o primeiro valor"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.WriteLine("Digite o segundo valor"); 
+
+            b = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+                if (a > b) 
+
+                Console.WriteLine("A diferença dos numeros é: " + (a - b)); 
+
+ 
+
+                else 
+
+                Console.WriteLine("A diferença dos numeros é: " + (b - a)); 
+
+ 
+
+            Console.ReadLine(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+using System.Collections.Generic; 
+
+using System.Linq; 
+
+using System.Text; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+ 
+
+        static void Main(String[] Args) 
+
+        { 
+
+            int A; 
+
+            int B; 
+
+            int C; 
+
+ 
+
+          
+
+            Console.WriteLine("___FORMANDO TRIÂNGULO___"); 
+
+ 
+
+            Console.WriteLine(" "); 
+
+            Console.Write("Informe o lado A: "); 
+
+            A = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.WriteLine(" "); 
+
+            Console.Write("Informe o lado B: "); 
+
+            B = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.WriteLine(" "); 
+
+            Console.Write("Informe o lado C: "); 
+
+            C = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            if ((A == B) && (B == C)) 
+
+            { 
+
+                Console.WriteLine(" "); 
+
+                Console.Write("Triângulo Equilátero"); 
+
+            } 
+
+            else if ((A == B) || (B == C) || (A == C)) 
+
+            { 
+
+                Console.WriteLine(" "); 
+
+                Console.Write("Triângulo Isósceles"); 
+
+            } 
+
+            else 
+
+            { 
+
+                Console.WriteLine(" "); 
+
+                Console.Write("Triângulo Escaleno"); 
+
+            } 
+
+            System.Console.ReadKey(); 
+
+        } 
+
+    } 
+
+ 
+
+} 
+using System; 
+
+using System.Collections.Generic; 
+
+using System.Linq; 
+
+using System.Text; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+ 
+
+        static void Main(String[] Args) 
+
+        { 
+
+            string sexo; 
+
+            double altura, n, h; 
+
+ 
+
+ 
+
+            Console.WriteLine("digite a sua altura"); 
+
+            altura = double.Parse(Console.ReadLine()); 
+
+ 
+
+            n = 72.7 * altura - 58; 
+
+            h = 62.1 * altura - 48.7; 
+
+ 
+
+            Console.WriteLine("informe seu sexo m-masculino e f-feminino"); 
+
+            sexo = Console.ReadLine(); 
+
+ 
+
+ 
+
+            if (sexo == "m") 
+
+            { 
+
+                Console.WriteLine("voce e do sexo masculino eo seu peso ideal é: " + n); 
+
+            } 
+
+            else 
+
+            { 
+
+                Console.WriteLine("voce e do sexo feminino e o seu peso ideal é: " + h); 
+
+            } 
+
+ 
+
+           Console.ReadKey(); 
+
+        } 
+
+    } 
+
+ 
+
+} 
+using System; 
+
+using System.Collections.Generic; 
+
+using System.Linq; 
+
+using System.Text; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+ 
+
+        static void Main(String[] Args) 
+
+        { 
+
+            string a, b, c, d, e, f, g, h, i, j, k; 
+
+            double p, s; 
+
+ 
+
+            Console.WriteLine("a – Soma"); 
+
+            Console.WriteLine("b – Subtração"); 
+
+            Console.WriteLine("c – Mutiplicação"); 
+
+            Console.WriteLine("d – Divisao"); 
+
+            Console.WriteLine("e – Resto da divisão"); 
+
+            Console.WriteLine("f – dobro"); 
+
+            Console.WriteLine("g – quadrado"); 
+
+            Console.WriteLine("h – cubo"); 
+
+            Console.WriteLine("i – raiz quadrada"); 
+
+            Console.WriteLine("j – sair"); 
+
+            Console.WriteLine("digite a letra da conta a ser realizada"); 
+
+            k = Console.ReadLine(); 
+
+ 
+
+            if (k == "a") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta de soma digite o primeiro valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("essa e uma conta de soma digite o segundo valor:"); 
+
+                s = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (s + p)); 
+
+            } 
+
+            if (k == "b") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta de subtração digite o primeiro valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("essa e uma conta de subtração digite o segundo valor:"); 
+
+                s = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (s - p)); 
+
+            } 
+
+            if (k == "c") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta de mutiplicação digite o primeiro valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("essa e uma conta de mutiplicação digite o segundo valor:"); 
+
+                s = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (s * p)); 
+
+            } 
+
+            if (k == "d") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta de divisão digite o primeiro valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("essa e uma conta de divisão digite o segundo valor:"); 
+
+                s = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (s / p)); 
+
+            } 
+
+            if (k == "e") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta que lhe mostrara o resto de uma divisão digite o primeiro valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("essa e uma conta lhe mostrara o resto de uma divisão digite o segundo valor:"); 
+
+                s = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (s % p)); 
+
+            } 
+
+            if (k == "f") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta que lhe mostrara o dobro de um numero digite o valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (p * 2)); 
+
+            } 
+
+            if (k == "g") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta que lhe mostrara o quadrado de um numero digite o valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (p * p)); 
+
+            } 
+
+            if (k == "h") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta que lhe mostrara o cubo de um numero digite o valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                Console.WriteLine("a resposta é: " + (p * p * p)); 
+
+            } 
+
+            if (k == "i") 
+
+            { 
+
+                Console.WriteLine("essa e uma conta que lhe mostrara a raiz quadrada de um numero digite o valor:"); 
+
+                p = Convert.ToInt32(Console.ReadLine()); 
+
+                double raiz_quadrada = Math.Sqrt(p); 
+
+                Console.WriteLine("a resposta é: " + raiz_quadrada ); 
+
+            } 
+
+            if (k == "j") 
+
+            { 
+
+                Console.WriteLine("voce finalizou a conta!!!"); 
+
+            } 
+
+ 
+
+            Console.ReadKey(); 
+
+        } 
+
+    } 
+
+ 
+
+} 
+
+using System; 
+
+using System.Collections.Generic; 
+
+using System.Linq; 
+
+using System.Text; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+ 
+
+        static void Main(String[] Args) 
+
+        { 
+
+            string x, y; 
+
+ 
+
+            Console.WriteLine("digite um destes valore -1 e 1  para definir o quadrante de x "); 
+
+            x = Console.ReadLine(); 
+
+ 
+
+            Console.WriteLine("digite um destes valore -1 e 1  para definir o quadrante de y "); 
+
+            y = Console.ReadLine(); 
+
+ 
+
+            if ((x == "1") & (y == "1")) 
+
+            { 
+
+                Console.WriteLine("o quadrante posicionado foi: 1º"); 
+
+            } 
+
+ 
+
+            if ((x == "-1") & (y == "1")) 
+
+            { 
+
+                Console.WriteLine("o quadrante posicionado foi: 2º"); 
+
+            } 
+
+ 
+
+            if ((x == "-1") & (y == "-1")) 
+
+            { 
+
+                Console.WriteLine("o quadrante posicionado foi: 3º"); 
+
+            } 
+
+ 
+
+            if ((x == "1") & (y == "-1")) 
+
+            { 
+
+                Console.WriteLine("o quadrante posicionado foi: 4º"); 
+
+            } 
+
+ 
+
+              Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+
+ 
