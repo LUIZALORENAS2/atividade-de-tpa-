@@ -1,0 +1,437 @@
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b, c, d, e, f, g, h, i, j, k; 
+
+ 
+
+            a = 4; 
+
+            b = a * 1; 
+
+            c = a * 2; 
+
+            d = a * 3; 
+
+            e = a * 4; 
+
+            f = a * 5; 
+
+            g = a * 6; 
+
+            h = a * 7; 
+
+            i = a * 8; 
+
+            j = a * 9; 
+
+            k = a * 10; 
+
+ 
+
+            Console.WriteLine("A tabuada do quatro é a seguinte"); 
+
+            Console.WriteLine(a + (" * 0 = 0")); 
+
+            Console.WriteLine(a + (" * 1 = ") + b); 
+
+            Console.WriteLine(a + (" * 2 = ") + c); 
+
+            Console.WriteLine(a + (" * 3 = ") + d); 
+
+            Console.WriteLine(a + (" * 4 = ") + e); 
+
+            Console.WriteLine(a + (" * 5 = ") + f); 
+
+            Console.WriteLine(a + (" * 6 = ") + g); 
+
+            Console.WriteLine(a + (" * 7 = ") + h); 
+
+            Console.WriteLine(a + (" * 8 = ") + i); 
+
+            Console.WriteLine(a + (" * 9 = ") + j); 
+
+            Console.WriteLine(a + (" * 10 = ") + k); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b, c, d, e, f, g, h, i, j, k; 
+
+ 
+
+            Console.Write("digite um numero"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            b = a * 1; 
+
+            c = a * 2; 
+
+            d = a * 3; 
+
+            e = a * 4; 
+
+            f = a * 5; 
+
+            g = a * 6; 
+
+            h = a * 7; 
+
+            i = a * 8; 
+
+            j = a * 9; 
+
+            k = a * 10; 
+
+ 
+
+            Console.WriteLine("A tabuada do numero escolhido é a seguinte"); 
+
+            Console.WriteLine(a + (" * 0 = 0")); 
+
+            Console.WriteLine(a + (" * 1 = ") + b); 
+
+            Console.WriteLine(a + (" * 2 = ") + c); 
+
+            Console.WriteLine(a + (" * 3 = ") + d); 
+
+            Console.WriteLine(a + (" * 4 = ") + e); 
+
+            Console.WriteLine(a + (" * 5 = ") + f); 
+
+            Console.WriteLine(a + (" * 6 = ") + g); 
+
+            Console.WriteLine(a + (" * 7 = ") + h); 
+
+            Console.WriteLine(a + (" * 8 = ") + i); 
+
+            Console.WriteLine(a + (" * 9 = ") + j); 
+
+            Console.WriteLine(a + (" * 10 = ") + k); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q; 
+
+ 
+
+            Console.Write("digite o 1º numero"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 2º numero"); 
+
+            b = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 3º numero"); 
+
+            c = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 4º numero"); 
+
+            d = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 5º numero"); 
+
+            e = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 6º numero"); 
+
+            f = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 7º numero"); 
+
+            g = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 8º numero"); 
+
+            h = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 9º numero"); 
+
+            i = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 10º numero"); 
+
+            j = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 11º numero"); 
+
+            k = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 12º numero"); 
+
+            l = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 13º numero"); 
+
+            m = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 14º numero"); 
+
+            n = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o 15º numero"); 
+
+            o = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            p = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o; 
+
+ 
+
+            q = p / 15; 
+
+ 
+
+            Console.WriteLine(a + (" + ") + b + (" + ") + c + (" + ") + d + (" + ") + e + (" + ") + f + (" + ") + g + (" + ") + h + (" + ") + i + (" + ") + j + (" + ") + k + (" + ") + l + (" + ") + m + (" + ") + n + (" + ") + o + (" = ") + p); 
+
+            Console.WriteLine(p +" / 15 = " + q); 
+
+ 
+
+ 
+
+           Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int num, maior = 0; 
+
+            do 
+
+            { 
+
+                Console.WriteLine("Digite um número: "); 
+
+                num = int.Parse(Console.ReadLine()); 
+
+                if (num > maior) 
+
+                { 
+
+                    maior = num; 
+
+                } 
+
+            } while (num != 0); 
+
+            Console.WriteLine("{0} foi o maior número digitado.", maior); 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+         
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int num, pares = 0, impares = 0, positivos = 0, negativos = 0; 
+
+ 
+
+            do 
+
+            { 
+
+                Console.WriteLine("Digite um número: "); 
+
+                num = int.Parse(Console.ReadLine()); 
+
+                if (num % 2 == 0) 
+
+                { 
+
+                    pares = pares + 1; 
+
+                } 
+
+                else 
+
+                { 
+
+                    impares = impares + 1; 
+
+                } 
+
+ 
+
+                if (num > 0) 
+
+                { 
+
+                    positivos++; 
+
+                } 
+
+                else 
+
+                { 
+
+                    negativos++; 
+
+                } 
+
+ 
+
+            } while (num != 0); 
+
+ 
+
+            Console.WriteLine("{0} pares", pares); 
+
+            Console.WriteLine("{0} impares", impares); 
+
+            Console.WriteLine("{0} positivos", positivos); 
+
+            Console.WriteLine("{0} negativos", negativos); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+
+ 
+
+ 
