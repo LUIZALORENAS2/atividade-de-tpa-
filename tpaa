@@ -1,0 +1,539 @@
+using System; 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+            static void Main(string[] args) 
+
+        { 
+
+                string nome; 
+
+                string idade; 
+
+                string cidade; 
+
+ 
+
+                Console.Write("Digite seu nome!"); 
+
+                nome = Console.ReadLine(); 
+
+ 
+
+                Console.Write("Digite sua idade!"); 
+
+                idade = Console.ReadLine(); 
+
+ 
+
+                Console.Write("Digite o nome da sua cidade!"); 
+
+                cidade = Console.ReadLine(); 
+
+ 
+
+                Console.WriteLine("***Informações digitadas***"); 
+
+                Console.WriteLine("Seu nome é:" + nome); 
+
+                Console.WriteLine("A sua idade é:" + idade); 
+
+                Console.WriteLine("Voce mora na cidade de:" + cidade); 
+
+ 
+
+                Console.ReadKey(); 
+
+        } 
+
+    } 
+
+} 
+
+
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b, c; 
+
+            Console.Write("Digite o numero a ser dobrado"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            b = 2; 
+
+ 
+
+            c = a * b; 
+
+ 
+
+            Console.Write(a + " * " + b + " = " + c); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b; 
+
+            Console.Write("Digite o valor desejado"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            b = a * a; 
+
+ 
+
+            Console.Write("O quadrado do numero corresponde a " + b); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+
+
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b, c, d, e, f, g; 
+
+ 
+
+            Console.Write("Digite o primeiro valor"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("Digite o segundo valor"); 
+
+            b = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("Digite o terceiro valor"); 
+
+            c = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            d = a * a; 
+
+ 
+
+            e = d * 5 - c; 
+
+ 
+
+            f = b - a % 4; 
+
+ 
+
+            g = e / f; 
+
+ 
+
+            Console.WriteLine(d + "*" + "5" + "-" + c + "/(" + b + "-" + a + "%" + "4)" + " e igual a "); 
+
+            Console.WriteLine(g); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+
+
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int idade; 
+
+ 
+
+            Console.Write("qual a sua idade?"); 
+
+            idade = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            if (idade >= 18)  
+
+            { 
+
+                Console.BackgroundColor = ConsoleColor.Green; 
+
+                Console.WriteLine("permitido voce ja é maior de idade"); 
+
+            } 
+
+            else 
+
+            { 
+
+                Console.BackgroundColor = ConsoleColor.Red; 
+
+                Console.WriteLine("voce nao esta autorizado por ser menor de idade"); 
+
+            } 
+
+ 
+
+            Console.ReadKey(); 
+
+        } 
+
+    } 
+
+} 
+
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            double a, b, c; 
+
+            Console.WriteLine("um dolar esta custando 5 reais"); 
+
+            Console.Write("Digite quantos reais voce tem"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            b = 5; 
+
+ 
+
+            c = a / b; 
+
+ 
+
+            Console.Write("pela quantidade de reais que voce tem em mao voce podera trocar por " + c + " dolares"); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            string primeiro; 
+
+            string segundo; 
+
+ 
+
+            Console.Write("Digite nome da primeira pessoa!"); 
+
+            primeiro = Console.ReadLine(); 
+
+ 
+
+            Console.Write("Digite o nome da segunda pessoa!"); 
+
+            segundo = Console.ReadLine(); 
+
+ 
+
+            Console.WriteLine(primeiro + " em maiusculo " + primeiro.ToUpper() ); 
+
+            Console.WriteLine(segundo + " em maiusculo " + segundo.ToUpper()); 
+
+            Console.WriteLine(primeiro + " possui " + primeiro.Length + " caracteres"); 
+
+            Console.WriteLine(segundo + " possui " + segundo.Length + " caracteres"); 
+
+            Console.WriteLine(primeiro + " os tres primeiros caracteres sao: " + primeiro.Substring(0, 3)); 
+
+            Console.WriteLine(segundo + " os tres primeiros caracteres sao: " +segundo.Substring(0, 3)); 
+
+ 
+
+            Console.ReadKey(); 
+
+        } 
+
+    } 
+
+} 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            double a, b, c, d, e; 
+
+            Console.WriteLine("um dolar esta custando 5 reais"); 
+
+            Console.WriteLine("um Euro esta custando reais"); 
+
+            Console.Write("Digite quantos reais voce tem"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            b = 5; 
+
+            c = 6; 
+
+            d = a / b; 
+
+            e = a / c; 
+
+ 
+
+ 
+
+            Console.WriteLine("pela quantidade de reais que voce tem em mao voce podera trocar por "); 
+
+            Console.WriteLine(d + " Dolares"); 
+
+            Console.WriteLine(e + " Euros"); 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+ } 
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            int a, b; 
+
+            Console.Write("Digite o valor de a"); 
+
+            a = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("digite o valor de b"); 
+
+            b = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.WriteLine("O valor da variavel a é: " + b); 
+
+            Console.WriteLine("O valor da variavel b é: " + a); 
+
+ 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
+
+using System; 
+
+ 
+
+namespace ConsoleApp2 
+
+{ 
+
+    class Program 
+
+    { 
+
+        static void Main(string[] args) 
+
+        { 
+
+            Console.WriteLine("Por favor escolhe um valor para as variaveis X, Y, Z, e W, para a seguinte noçao logica ((x >= y) AND (z <= x)) OR ((x == w) AND (y== z)) or (NOT(x != w ))"); 
+
+            int x, y, z, w; 
+
+            Console.Write("Digite o valor de x"); 
+
+            x = Convert.ToInt32(Console.ReadLine()); 
+
+             
+
+            Console.Write("Digite o valor de y"); 
+
+            y = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("Digite o valor de z"); 
+
+            z = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.Write("Digite o valor de w"); 
+
+            w = Convert.ToInt32(Console.ReadLine()); 
+
+ 
+
+            Console.WriteLine("((" + x + " >= " + y + ") AND (" + z + "<= " + x + ")) OR ((" + x + " == " + w + ") AND (" + y + " == " + z + ")) OR (NOT(" + x + " != " + w + "))"); 
+
+ 
+
+ 
+
+            Console.ReadKey(); 
+
+ 
+
+        } 
+
+    } 
+
+} 
